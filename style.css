@@ -41,11 +41,17 @@ nav a {
   text-align: center;
 }
 
-.card img {
-  width: 250px;
-  height: 150px;
-  object-fit: cover;
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* makes it responsive */
 }
+
+.card {
+  text-align: center;
+}
+
 
 .adventure-images img {
   width: 32%;
@@ -60,3 +66,4 @@ footer {
   text-align: center;
   padding: 30px;
 }
+
